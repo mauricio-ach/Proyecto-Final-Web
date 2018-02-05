@@ -1,0 +1,42 @@
+*********************************************************************
+*********************************************************************
+
+Pequeña aplicación web dónde se desarrolla un juego de Piedra, Papel
+ó Tijera ocupando las tecnologías estudiadas a lo largo del curso:
+
+-HTML
+-CSS
+-JavaScript
+-PHP
+-SQL
+
+Y sus respectivos frameworks de JavaScript y HTML/CSS:
+
+-Boostrap 4
+-JQuery
+
+Así mismo, para ejecutar la aplicación se debe contar con algún 
+gestor de bases de datos y otra que monte un servidor local; para 
+éste ejercicio fueron utilizadas respectivamente:
+
+-MarianaDB
+-XAMPP (Uso de PHPMyAdmin)
+
+*********************************************************************
+*********************************************************************
+
+Para ejecutar la carpeta principal debe estar dentro de htdocs de 
+XAMPP, comúnmente en Windows se encuentra en C: y en Linux en /opt
+
+*********************************************************************
+*********************************************************************
+
+El trabajo se ofrece para consulta y fines educativos.
+
+*********************************************************************
+*********************************************************************
+
+Autor: Mauricio Araujo Chávez
+
+*********************************************************************
+*********************************************************************
