@@ -19,7 +19,7 @@ Así mismo, para ejecutar la aplicación se debe contar con algún
 gestor de bases de datos y otra que monte un servidor local; para 
 éste ejercicio fueron utilizadas respectivamente:
 
--MarianaDB
+-MariaDB
 -XAMPP (Uso de PHPMyAdmin)
 
 *********************************************************************
