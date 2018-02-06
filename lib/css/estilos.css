@@ -3,6 +3,33 @@
 	height: 550px;
 }
 
+.vista1-juego, .vista2-juego, .vista3-juego {
+	float: left;
+	height: 550px;	
+	border: black solid;
+}
+
+.vista1-juego {
+	width: 40%;
+	background-color: #B159B5;	
+}
+
+.vista3-juego {
+	width: 40%;
+	background-color: #3378E8;	
+}
+
+.vista2-juego {
+	width: 20%;
+	background-color: #8DDBF0;
+}
+
+.imagen-versus {
+	border-radius: 20%;
+	padding-left: 23%;
+	padding-top: 60%;
+}
+
 .vista1, .vista2 {
 	border: black solid;
 }
@@ -43,7 +70,20 @@ li {
 	color: white;
 }
 
-.boton-inicio {
+.boton-juego {
+	border: 5px white solid;
+	border-radius: 20px;
+	margin-top: 5%;
+	margin-left: 10%;
+	background-color: #28C4D7;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	width: 80%;
+	height: 80px;	
+}
+
+.boton {
 	border: 5px white solid;
 	border-radius: 20px;
 	margin-top: 5%;
@@ -55,7 +95,7 @@ li {
 	height: 80px;
 }
 
-.boton-inicio: hover {
+.boton:hover, .boton-juego:hover{
 	color: #115FEE;
 	cursor: pointer;
 }

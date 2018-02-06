@@ -16,27 +16,14 @@
 <body>
 	<div class="container-fluid">
 		<div class="text-center titulo">Desarrollo Web - Proyecto Final</div>
-		<div class="text-center vista1">
-			<ul class="lista">
-				<li>Piedra</li>
-				<li>Papel</li>
-				<li>Tijera</li>
-			</ul>
-			<button class="boton" onclick="abrePag()">Comenzar</button>
+		<div class="text-center vista1-juego">
 		</div>
-		<div class="vista2">
-
-			<div class="imagen-piedra"><img src="lib/img/piedra.png"></div>
-			<div class="imagen-papel"><img src="lib/img/papel.png"></div>
-			<div class="imagen-tijera"><img src="lib/img/tijera.png"></div>
+		<div class="vista2-juego">
+			<img class="imagen-versus" src="lib/img/versus.png">
+			<button class="boton-juego" onclick="#">Jugar</button>
+		</div>
+		<div class="vista3-juego">
 		</div>
 	</div>
 </body>
-
-<script>
-	function abrePag() {
-		window.open("juego.php");
-	}
-</script>
-
 </html>
