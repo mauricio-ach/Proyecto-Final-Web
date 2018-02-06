@@ -1,0 +1,79 @@
+.vista1, .vista2 {
+	float: left;
+	height: 550px;
+}
+
+.vista1, .vista2 {
+	border: black solid;
+}
+
+.titulo {
+	border-bottom: black solid;
+}
+
+.titulo {
+	width: 100%;
+	height: 100px;
+	padding: 1%;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: white;
+}
+
+.vista1 {
+	width: 50%;
+	background-color: #B159B5;
+}
+
+.vista2 {
+	width: 50%;
+	background-color: #3378E8;
+}
+
+.lista {
+	list-style: none;
+	padding-top: 10%;
+}
+
+li {
+	font-size: 60px;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: underline;
+	color: white;
+}
+
+.boton-inicio {
+	border: 5px white solid;
+	border-radius: 20px;
+	margin-top: 5%;
+	background-color: #28C4D7;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	width: 80%;
+	height: 80px;
+}
+
+.boton-inicio: hover {
+	color: #115FEE;
+	cursor: pointer;
+}
+
+.imagen-piedra{
+	width: 50%;
+	padding-left: 10%;
+	padding-top: 5%;
+	float: right;
+}
+
+.imagen-papel {
+	padding-top: 5%;
+	padding-left: 10%;
+	width: 50%;
+}
+
+.imagen-tijera {
+	padding-left: 40%;
+	width: 100%
+}
