@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Piedra, Papel ó Tijera</title>
+	<title>Resultado</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="lib/css/estilos.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,24 +17,18 @@
 	<div class="container-fluid">
 		<div class="text-center titulo">Desarrollo Web - Proyecto Final</div>
 		<div class="text-center vista1">
-			<ul class="lista">
-				<li>Piedra</li>
-				<li>Papel</li>
-				<li>Tijera</li>
-			</ul>
-			<button class="boton" onclick="abreJuego()">Comenzar</button>
+			<h1>Ganador</h1>
+			<button class="boton" onclick="regresar()">Regresar</button>
 		</div>
 		<div class="vista2">
-
-			<div class="imagen-piedra"><img src="lib/img/piedra.png"></div>
-			<div class="imagen-papel"><img src="lib/img/papel.png"></div>
+			<div class="imagen-corona"><img src="lib/img/corona-chida.png"></div>
 			<div class="imagen-tijera"><img src="lib/img/tijera.png"></div>
 		</div>
 	</div>
 </body>
 
 <script>
-	function abreJuego() {
+	function regresar() {
 		window.open("juego.php", "_self");
 	}
 </script>

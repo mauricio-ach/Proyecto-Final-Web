@@ -12,11 +12,13 @@
 .vista1-juego {
 	width: 40%;
 	background-color: #B159B5;	
+	text-align: center;
 }
 
 .vista3-juego {
 	width: 40%;
 	background-color: #3378E8;	
+	text-align: center;
 }
 
 .vista2-juego {
@@ -116,4 +118,14 @@ li {
 .imagen-tijera {
 	padding-left: 40%;
 	width: 100%
+}
+
+.imagen-corona {
+	width: 100%;
+	padding-left: 38%;
+}
+
+.imagen-interrogacion {
+	width: 100%;
+	padding-left: 20%;
 }

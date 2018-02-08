@@ -1,6 +1,6 @@
 <?php
     $host = "127.0.0.1";
-    $basedatos = "bluebitsweb";
+    $basedatos = "juego";
     $usuario = "root";
     $password = "";
     $puerto = "3306";
