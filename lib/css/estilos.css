@@ -27,8 +27,9 @@
 }
 
 .imagen-versus {
-	border-radius: 20%;
-	padding-left: 23%;
+	display: flex;
+	margin: 0 auto;	
+	border-radius: 15px;
 	padding-top: 60%;
 }
 
@@ -38,11 +39,8 @@
 
 .titulo {
 	border-bottom: black solid;
-}
-
-.titulo {
 	width: 100%;
-	height: 100px;
+	height: auto;
 	padding: 1%;
 	font-size: 40px;
 	font-weight: bold;
@@ -115,14 +113,14 @@ li {
 	width: 50%;
 }
 
-.imagen-tijera {
-	padding-left: 40%;
-	width: 100%
+.imagen-tijera {	
+	display: flex;
+	margin: 0 auto;
 }
 
 .imagen-corona {
-	width: 100%;
-	padding-left: 38%;
+	display: flex;
+	margin: 0 auto;
 }
 
 .imagen-interrogacion {
