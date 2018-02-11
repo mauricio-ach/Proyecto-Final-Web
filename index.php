@@ -12,11 +12,14 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 	<div class="container-fluid">
-		<div class="text-center titulo">Desarrollo Web - Proyecto Final</div>
-		<div class="text-center vista1">
+		<div class="text-center titulo col-md-12 col-xs-12">Desarrollo Web - Proyecto Final</div>
+		<div  id="pagina" class="text-center vista1 col-md-6 col-xs-6">
 			<ul class="lista">
 				<li>Piedra</li>
 				<li>Papel</li>
@@ -24,7 +27,7 @@
 			</ul>
 			<button class="boton" onclick="abreJuego()">Comenzar</button>
 		</div>
-		<div class="vista2">
+		<div class="vista2 col-md-6 col-xs-6">
 
 			<div class="imagen-piedra"><img src="lib/img/piedra.png"></div>
 			<div class="imagen-papel"><img src="lib/img/papel.png"></div>
@@ -35,7 +38,7 @@
 
 <script>
 	function abreJuego() {
-		window.open("juego.php", "_self");
+		window.open("juego.php", "_self")
 	}
 </script>
 
