@@ -17,10 +17,10 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="text-center titulo">Desarrollo Web - Proyecto Final</div>
+			<div class="text-center titulo col-md-12">Desarrollo Web - Proyecto Final</div>
 		</div>
-		<div class="row">
-			<form class="col-md-12" id="formulario" action="resultado.php?<?php echo "opcion1=" . $_GET['opcion'] ?>">
+		<form id="formulario" action="resultado.php?<?php echo "opcion1=" . $_GET['opcion'] ?>">
+			<div class="row">
 				<div class="text-center vista1-juego col-md-5">
 						<img id="img-1" src="lib/img/interrogacion.png">
 			
@@ -62,10 +62,9 @@
 							echo $resultado_query_score[1][2];
 					 	?>
 					</div>
-
 				</div>
-			</form>
-		</div>
+			</div>
+		</form>
 		<div class="row">
 			
 			<?php 

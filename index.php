@@ -15,11 +15,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div id="titulo" class="text-center titulo col-md-12 col-xs-12">Desarrollo Web - Proyecto Final</div>
+			<div id="titulo" class="text-center titulo col-md-12 col-xs-12 col-sm-12">Desarrollo Web - Proyecto Final</div>
 		</div>
 		
 		<div class="row">	
-			<div id="vista1" class="text-center vista1 col-md-6 col-xs-6" style="margin-bottom: 15px">
+			<div id="vista1" class="text-center vista1 col-md-6 col-xs-6 col-sm-6" style="margin-bottom: 15px">
 				<ul class="lista text-center">
 				<li>Piedra</li>
 				<li>Papel</li>
@@ -27,7 +27,7 @@
 				</ul>
 				<button class="boton" onclick="abreJuego()">Comenzar</button>
 			</div>
-			<div id="vista2" class="vista2 col-md-6 col-xs-6">
+			<div id="vista2" class="vista2 col-md-6 col-xs-6 col-sm-6">
 				<div class="row">
 					<div class="imagen-piedra"><img src="lib/img/piedra.png"></div>
 					<div class="imagen-papel"><img src="lib/img/papel.png"></div>
