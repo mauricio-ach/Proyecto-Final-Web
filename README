@@ -25,7 +25,7 @@ gestor de bases de datos y otra que monte un servidor local; para
 *********************************************************************
 *********************************************************************
 
-Para ejecutar la carpeta principal debe estar dentro de htdocs de 
+Para ejecutar, la carpeta principal debe estar dentro de htdocs de 
 XAMPP, comúnmente en Windows se encuentra en C: y en Linux en /opt
 
 *********************************************************************
@@ -35,8 +35,9 @@ El trabajo se ofrece para consulta y fines educativos.
 
 --------------------Imporante----------------------------------------
 ---------------------------------------------------------------------
-Requiere una conexión a internet puesto que no están incluidas las
-bibliotecas Boostrap y jQuery.
+Por defecto están incluidas en el código de forma locas las 
+bibliotecas Boostrap y jQuery. De ser necesario deberá incluirse 
+un link con el cdn de las respectivas.
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 
